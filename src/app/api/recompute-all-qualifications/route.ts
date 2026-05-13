@@ -1,3 +1,4 @@
+export const runtime = 'edge';
 import { createClient } from '@/utils/supabase/server';
 import { NextResponse } from 'next/server';
 import { redis } from '@/lib/redis'; // Import redis to flush student data
